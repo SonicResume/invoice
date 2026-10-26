@@ -1,10 +1,8 @@
-[![Discord](https://img.shields.io/badge/Discord-%40Noah Invoice-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/uhXKHbVKHZ)
+
 
 # Noah Invoice
 
 Noah Invoice is a free, web-based invoice generator built with Next.js, TypeScript, React and the shadcn/ui library. Fill in a form, pick a template, and get a real PDF. No account, no subscription, and nothing about your customers stored on a server.
-
-![Noah Invoice Website image](https://github.com/user-attachments/assets/7b7076db-736e-4a82-b61b-cec3c0ff5695)
 
 ## Table of Contents
 
