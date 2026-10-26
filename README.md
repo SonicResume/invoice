@@ -4,27 +4,6 @@
 
 Noah Invoice is a free, web-based invoice generator built with Next.js, TypeScript, React and the shadcn/ui library. Fill in a form, pick a template, and get a real PDF. No account, no subscription, and nothing about your customers stored on a server.
 
-## Table of Contents
-
-- [Noah Invoice](#noah-invoice)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Your data stays in your browser](#your-data-stays-in-your-browser)
-  - [Languages](#languages)
-  - [Technologies](#technologies)
-    - [Core Technologies](#core-technologies)
-    - [Additional Dependencies](#additional-dependencies)
-  - [Demo](#demo)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Environment variables](#environment-variables)
-  - [Development](#development)
-    - [Scripts](#scripts)
-    - [Tests](#tests)
-  - [License](#license)
-  - [Discord](#discord)
-
 ## Features
 
 - **13 invoice templates:** Classic, Modern, Sidebar, Bold Header, Minimal, Letterhead, Compact, Two-Tone, Bordered, Left Rail, Statement, Corner and Column.
@@ -75,13 +54,6 @@ Right-to-left layouts are supported for Arabic and Hebrew. Some PDF translations
 - **Nodemailer:** Node.js module for sending emails.
 - **Lucide Icons:** Collection of customizable SVG icons.
 - **Playwright:** End-to-end tests.
-
-## Demo
-
-> [!NOTE]
-> Browser PDF rendering can vary. Test generated invoices in your target browsers before production deployment.
-
-Run Noah Invoice locally using the steps below.
 
 ## Getting Started
 
@@ -146,11 +118,4 @@ npx playwright install --with-deps chromium
 npm run test:e2e
 ```
 
-The suite builds and serves the production bundle, then runs against it in a desktop and a mobile viewport. CI runs the same typecheck, lint and test steps on every push and pull request. See [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
 
-## License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
-
-## Discord
-Join the Discord server [here](https://discord.gg/uhXKHbVKHZ)
